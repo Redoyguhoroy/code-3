@@ -1,0 +1,13 @@
+int main()
+{
+    float mg,gm,kg;
+    printf("enter the lenght in cm=");
+    scanf("%f", &kg);
+
+    gm=kg/1000;
+    mg=kg/1000000;
+
+    printf("The value of gm=%f\n,gm");
+    printf("The value of mg=%f\n,mg");
+    return 0;
+}
